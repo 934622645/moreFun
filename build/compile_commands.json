@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/haoge/桌面/cc_test/build",
+  "command": "/bin/g++-9    -g   -o CMakeFiles/cc_test.dir/main.cpp.o -c /home/haoge/桌面/cc_test/main.cpp",
+  "file": "/home/haoge/桌面/cc_test/main.cpp"
+}
+]
