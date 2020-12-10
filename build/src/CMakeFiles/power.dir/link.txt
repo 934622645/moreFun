@@ -1,0 +1,2 @@
+/bin/ar qc libpower.a  CMakeFiles/power.dir/QuickSort.cpp.o CMakeFiles/power.dir/StudList.cpp.o CMakeFiles/power.dir/mstack.cpp.o
+/bin/ranlib libpower.a

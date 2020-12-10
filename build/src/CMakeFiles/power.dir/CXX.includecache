@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/haoge/桌面/cc_test/include/QuikSort.h
+stdio.h
+-
+iostream
+-
+stdlib.h
+-
+
+/home/haoge/桌面/cc_test/include/StudentList.h
+iostream
+-
+
+/home/haoge/桌面/cc_test/include/mstack.h
+StudentList.h
+/home/haoge/桌面/cc_test/include/StudentList.h
+
+/home/haoge/桌面/cc_test/src/QuickSort.cpp
+../include/QuikSort.h
+/home/haoge/桌面/cc_test/include/QuikSort.h
+
+/home/haoge/桌面/cc_test/src/StudList.cpp
+../include/StudentList.h
+/home/haoge/桌面/cc_test/include/StudentList.h
+
+/home/haoge/桌面/cc_test/src/mstack.cpp
+../include/mstack.h
+/home/haoge/桌面/cc_test/include/mstack.h
+

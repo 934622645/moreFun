@@ -1,7 +1,22 @@
 [
 {
   "directory": "/home/haoge/桌面/cc_test/build",
-  "command": "/bin/g++-9    -g   -o CMakeFiles/cc_test.dir/main.cpp.o -c /home/haoge/桌面/cc_test/main.cpp",
+  "command": "/bin/g++-9     -g -g   -o CMakeFiles/cc_test.dir/main.cpp.o -c /home/haoge/桌面/cc_test/main.cpp",
   "file": "/home/haoge/桌面/cc_test/main.cpp"
+},
+{
+  "directory": "/home/haoge/桌面/cc_test/build/src",
+  "command": "/bin/g++-9   -I/home/haoge/桌面/cc_test/include   -g -g   -o CMakeFiles/power.dir/QuickSort.cpp.o -c /home/haoge/桌面/cc_test/src/QuickSort.cpp",
+  "file": "/home/haoge/桌面/cc_test/src/QuickSort.cpp"
+},
+{
+  "directory": "/home/haoge/桌面/cc_test/build/src",
+  "command": "/bin/g++-9   -I/home/haoge/桌面/cc_test/include   -g -g   -o CMakeFiles/power.dir/StudList.cpp.o -c /home/haoge/桌面/cc_test/src/StudList.cpp",
+  "file": "/home/haoge/桌面/cc_test/src/StudList.cpp"
+},
+{
+  "directory": "/home/haoge/桌面/cc_test/build/src",
+  "command": "/bin/g++-9   -I/home/haoge/桌面/cc_test/include   -g -g   -o CMakeFiles/power.dir/mstack.cpp.o -c /home/haoge/桌面/cc_test/src/mstack.cpp",
+  "file": "/home/haoge/桌面/cc_test/src/mstack.cpp"
 }
 ]

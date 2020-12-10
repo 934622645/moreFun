@@ -79,6 +79,7 @@ cc_test_EXTERNAL_OBJECTS =
 
 cc_test: CMakeFiles/cc_test.dir/main.cpp.o
 cc_test: CMakeFiles/cc_test.dir/build.make
+cc_test: src/libpower.a
 cc_test: CMakeFiles/cc_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/haoge/桌面/cc_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cc_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cc_test.dir/link.txt --verbose=$(VERBOSE)

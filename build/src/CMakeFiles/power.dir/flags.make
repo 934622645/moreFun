@@ -6,5 +6,5 @@ CXX_FLAGS =  -g -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/haoge/桌面/cc_test/include 
 

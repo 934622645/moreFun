@@ -1,15 +1,22 @@
 {
     "configurations": [
         {
-            "name": "Linux",
+            "name": "CMake",
             "includePath": [
-                "${default}"
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include"
             ],
-            "defines": [],
-            "compilerPath": "/usr/bin/gcc",
-            "cStandard": "gnu17",
-            "cppStandard": "gnu++14",
-            "intelliSenseMode": "gcc-x64"
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "/usr/bin/g++", // 根据自己的安装目录确定
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64", // 注意修改, 提供智能提示
+            "configurationProvider": "vector-of-bool.cmake-tools"
         }
     ],
     "version": 4
